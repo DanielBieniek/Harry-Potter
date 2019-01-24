@@ -1,0 +1,302 @@
+#index-body {
+	background-image:url("zdjecia/body-background.png");
+	background-color:#353696;
+	background-size:100%;
+	margin:0px; 
+	background-opacity:0.1; 
+	background-repeat:no-repeat;
+}
+#all { /* iframe */
+	width:1100px;
+	height:100%;
+	background-image: url("zdjecia/blue-background.jpg");
+	background-repeat:no-repeat;
+	background-size-height:100%;
+	background-color:#0B141B;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+}
+
+#fixed { /* Menu - cały div */
+	width:100%;
+	height:38px;
+	background-image:url("zdjecia/lblue-background.jpg");
+	background-color:#133F61;
+	border-bottom:2px solid #000000;
+	margin-left:0px;
+	margin-right:0px;
+	position:fixed;
+	padding-bottom:0px;
+}
+#logo { /* Menu - "Harry Potter" */
+	width:16.5%;
+	height:33px;
+	font-size:24px;
+	font-family:'Myriad Pro';
+	font-weight:bold;
+	text-align:center;
+	padding-top:5px;
+	color:#000000;
+	border-right:2px solid #000000;
+	padding-bottom:0px;
+	float:left;
+}
+#logo-png {
+	width:150px;
+	height:33px;
+}
+.menu { /* Menu - różne hiperłącza */
+	width:16.5%;
+	height:33px;
+	font-size:25px;
+	font-family:'Myriad Pro';
+	text-align:center;
+	padding-top:4px;
+	color:#000000;
+	border-right:1px dotted #000000;
+	padding-bottom:0px;
+	float:right;
+	transition:ease-out 0.5s;
+}
+.menu:hover {
+	color:#FFFFFF;
+	transition:0.5s;
+}
+
+.oczyms { /* O Książce / O Filmie */
+	width:100%;
+	height:40px;
+	font-size:30px;
+	font-family:'Century Gothic';
+	text-align:center;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-bottom:40px;
+	padding-top:30px;
+	float:left;
+	margin-top:40px;
+}
+.tytuly { /* O Książce / O Filmie */
+	width:50%;
+	height:33px;
+	margin-left:25%;
+	font-size:25px;
+	font-family:'Century Gothic';
+	text-align:center;
+	font-style:italic;
+	color:#A1A1A1;
+	padding-bottom:10px;
+	padding-top:15px;
+	float:left;
+	clear:both;
+	transition:ease-out 0.5s;
+}
+.tytuly:hover {
+	color:#FFFFFF;
+	transform:scale(1.1);
+	transition:0.5s;
+}
+
+.ksiazka-tekst-opis-1 {
+	width:300px;
+	height:100%;
+	float:left;
+	margin-left:40px;
+	margin-top:110px;
+	padding-top:5px;
+	font-weight:bold;
+	text-align:left;
+	color:#FFFFFF;
+}
+.ksiazka-tekst-opis-2 {
+	width:400px;
+	height:100%;
+	float:left;
+	margin-left:5px;
+	margin-top:110px;
+	padding-top:5px;
+	text-align:left;
+	color:#C4C2C2;
+}
+
+.film-opis-logo, .boh-opis-logo, .ksiazka-opis-logo { /* Logo w opisie */
+	width:300px;
+	height:430px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:120px;
+	float:left;
+	border-radius: 28px 28px 28px 28px;
+	-moz-border-radius: 28px 28px 28px 28px;
+	-webkit-border-radius: 28px 28px 28px 28px;
+	border: 0px solid #000000;
+}
+.film-tekst-opis-1, .boh-tekst-opis-1 { /* Opis - div argumentów */
+	width:300px;
+	height:100%;
+	float:left;
+	margin-left:40px;
+	margin-top:60px;
+	padding-top:5px;
+	font-weight:bold;
+	text-align:left;
+	color:#FFFFFF;
+}
+.film-tekst-opis-2, .boh-tekst-opis-2 { /* Opis - div wartości */
+	width:400px;
+	height:100%;
+	float:left;
+	margin-left:5px;
+	margin-top:60px;
+	padding-top:5px;
+	text-align:left;
+	color:#C4C2C2;
+}
+.argumenty-filmu, .argumenty-boh { /* Opis poszczególnego Domu - argumenty */
+	margin-top:25px;
+	border-bottom: 1px solid transparent;
+	cursor:default;
+}
+.argumenty-filmu:hover, .argumenty-boh:hover {
+	border-bottom: 1px solid #FFFFFF;
+}
+.wartosci-filmu, .wartosci-boh { /* Opis poszczególnego Domu - wartosci */
+	margin-top:26px;
+}
+
+.dom-logo { /* Menu Domy */
+	width:270px;
+	height:333px;
+	float:left;
+	text-align: center;
+	margin-top:40px;
+	transition:ease-out 0.5s;
+}
+.dom-logo:hover {
+	transform:scale(1.1);
+	transition:0.5s;
+}
+.dom-opis-logo { /* Logo w opisie poszczególnego Domu */
+	width:300px;
+	height:370px;
+	padding-left:10px;
+	padding-top:40px;
+	padding-right:10px;
+	margin-top:80px;
+	float:left;
+}
+.dom-tekst-opis-1 { /* Opis poszczególnego Domu - div argumentów */
+	width:300px;
+	height:100%;
+	float:left;
+	margin-left:20px;
+	margin-top:80px;
+	padding-top:5px;
+	font-weight:bold;
+	text-align:left;
+	color:#FFFFFF;
+}
+.dom-tekst-opis-2 { /* Opis poszczególnego Domu - div wartości */
+	width:400px;
+	height:100%;
+	float:left;
+	margin-left:5px;
+	margin-top:80px;
+	padding-top:5px;
+	text-align:left;
+	color:#C4C2C2;
+}
+.argumenty-domu { /* Opis poszczególnego Domu - argumenty */
+	margin-top:25px;
+	border-bottom: 1px solid transparent;
+	cursor:default;
+}
+.argumenty-domu:hover {
+	border-bottom: 1px solid #FFFFFF;
+}
+.wartosci-domu { /* Opis poszczególnego Domu - wartosci */
+	padding-top:26px;
+}
+
+#start-logo { /* Strona startowa - logo */
+	width:340px;
+	height:340px;
+	padding-right:10px;
+	margin-top:140px;
+	padding-top:0px;
+	float:left;
+	transition:ease-out 0.5s;
+}
+#start-logo:hover {
+	transform:scale(1.1);
+	transition:0.5s;
+}
+#opis-start { /* Strona startowa - tekst */
+	width:650px;
+	height:100%;
+	float:left;
+	font-family:'Century Gothic';
+	text-align:justify;
+	font-size:17px;
+	margin-left:50px;
+	margin-top:135px;
+	padding-top:5px;
+	color:#C4C2C2;
+}
+
+.boh-tx { /* O Bohaterach (główni / drugoplanowi) */
+	width:100%;
+	height:50px;
+	font-size:26px;
+	font-family:'Century Gothic';
+	text-align:center;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin-top:20px;
+	float:left;
+}
+.boh { /* Bohaterzy (główni / drugoplanowi) */
+	width:30%;
+	height:40px;
+	font-size:24px;
+	font-family:'Century Gothic';
+	text-align:center;
+	font-style:italic;
+	color:#E6E6E6;
+	padding-bottom:0px;
+	padding-top:15px;
+	float:left;
+	border-bottom: 1px solid transparent;
+	cursor:default;
+	transition:ease-out 0.5s;
+}
+.boh:hover { 
+	text-decoration: underline;
+	transform:scale(1.1);
+	transition:0.5s;
+}
+
+#credits { /* schowane hiperłącze */
+	width:10px;
+	height:10px;
+	margin-top:100px;
+	padding:0px;
+	float:bottom;
+	cursor:default;
+	position:fixed;
+	background-color:transparent;
+}
+#credits-page {	/* wyglad całej strony */
+	width:100%;
+	height:100%;
+	font-family:'Century Gothic';
+	float:left;
+	margin-left:20px;
+	margin-top:80px;
+	padding-top:5px;
+	font-weight:bold;
+	text-align:left;
+	color:#FFFFFF;
+	position:relative;
+}
